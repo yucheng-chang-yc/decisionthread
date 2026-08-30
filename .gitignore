@@ -1,0 +1,20 @@
+.edge-*
+
+# Local editor and OS artifacts
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local temporary files
+*.tmp
+*.temp
+
+# Local review and capture artifacts
+.impeccable/
+index.refined.html
+assets/screenshots/case_*.png
+assets/screenshots/smoke_*.png
+tools/capture-demo.mjs
