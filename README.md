@@ -4,7 +4,7 @@ DecisionThread is an AI-augmented wealth-advisory workbench that keeps client op
 
 Built primarily for **bank wealth advisors and relationship managers (RMs)**.
 
-[Case Study](index.html) · [Live Demo](demo/index.html)
+[Case Study](https://yucheng-chang-yc.github.io/decisionthread/) · [Live Demo](https://yucheng-chang-yc.github.io/decisionthread/demo/)
 
 ## What works
 
