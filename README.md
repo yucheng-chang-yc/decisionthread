@@ -71,4 +71,3 @@ node tools/capture-demo.mjs
 - [Whole-portfolio consequence](assets/screenshots/04_portfolio_consequence.png)
 - [Execution handoff](assets/screenshots/05_execution_handoff.png)
 - [Product campaign routing](assets/screenshots/06_product_campaign.png)
-- [1280 × 800 smoke capture](assets/screenshots/smoke_1280x800.png)
