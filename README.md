@@ -6,12 +6,16 @@ Built primarily for **bank wealth advisors and relationship managers (RMs)**.
 
 [Case Study](https://yucheng-chang-yc.github.io/decisionthread/) · [Live Demo](https://yucheng-chang-yc.github.io/decisionthread/demo/)
 
+## About this project
+
+DecisionThread is a functional concept prototype demonstrating how an end-to-end wealth-advisory decision workflow could work in practice. The interface and core workflow are executable; client data, conversational inputs, analytics, and enterprise integrations are synthetic, scripted, or simulated where appropriate. It is not a production banking system or live bank deployment.
+
 ## What works
 
 - **Opportunity radar:** surfaces clients who may need attention based on events, cash, maturities, allocation, and bank signals.
 - **Client context:** keeps holdings, objectives, events, and the reason to engage visible in one workflow.
 - **AI-assisted meeting context:** scripted conversation signals can update meeting preparation and advisor attention without overwriting governed financial facts.
-- **PIW-governed commercial product prioritisation:** combines the eligible product universe with client relevance, portfolio context, and explicit bank priorities.
+- **Product eligibility and prioritisation:** uses a governed product eligibility and prioritisation framework (labelled “PIW” in the demo) to combine the eligible product universe with client relevance, portfolio context, and explicit bank priorities.
 - **Proposal and whole-portfolio consequence:** turns product, amount, account, and funding source into a proposed portfolio so trade-offs are visible before action.
 - **Heterogeneous product treatment:** uses evidence suited to each product family rather than forcing funds, structured products, deposits, and insurance into one analytical model.
 - **Execution handoff:** carries proposal identity, rationale, and decision state toward downstream suitability and transaction review.
@@ -19,7 +23,7 @@ Built primarily for **bank wealth advisors and relationship managers (RMs)**.
 ## Key design decisions
 
 - Treat commercial intent as a legitimate, visible input—but never as a route around client eligibility.
-- Use PIW as a governed boundary, not as a complete personalisation model.
+- Use the product eligibility framework as a governed boundary, not as a complete personalisation model.
 - Let AI interpret and update context while authoritative financial state and calculations remain deterministic.
 - Judge a recommendation by its whole-portfolio effect, including adverse trade-offs, rather than by isolated product fit.
 - Separate advisor-facing product language from the analytical treatment required by each product type.
@@ -27,7 +31,7 @@ Built primarily for **bank wealth advisors and relationship managers (RMs)**.
 
 ## Prototype scope
 
-This repository is a functional interaction and decision-architecture prototype, not a production banking system.
+The prototype uses simulated operational boundaries:
 
 - Client and product data are synthetic.
 - The AI runtime and conversational inputs are scripted or simulated.
